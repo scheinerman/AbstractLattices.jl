@@ -7,6 +7,8 @@
 This module defines `∨` (for join) and `∧` (for meet)
 as binary operators so other modules can import them for their own purposes.
 
+We also define `dist` so distance can be defined in various modules. 
+
 
 ## Usage
 
