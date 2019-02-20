@@ -2,9 +2,9 @@ module AbstractLattices
 
 export ∧, ∨, dist
 
-function (∧)(x,y) end
-function (∨)(x,y) end
+function ∧ end
+function ∨ end
 
-function dist() end
+function dist end
 
 end
