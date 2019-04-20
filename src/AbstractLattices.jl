@@ -1,9 +1,12 @@
 module AbstractLattices
 
-export ∧, ∨, dist
+export ∧, ∨, dist, wedge, vee
 
-function ∧ end
-function ∨ end
+function wedge end
+function vee end
+
+const ∧ = wedge
+const ∨ = vee
 
 function dist end
 
