@@ -10,4 +10,6 @@ const ∨ = vee
 
 function dist end
 
+wedge() = 1
+
 end
