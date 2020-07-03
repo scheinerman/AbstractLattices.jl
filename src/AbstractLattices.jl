@@ -8,6 +8,9 @@ function vee end
 const ∧ = wedge
 const ∨ = vee
 
+wedge(x) = x
+vee(x) = x
+
 function dist end
 
 end

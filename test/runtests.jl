@@ -11,3 +11,5 @@ end
 
 @test 5 ∧ 10 == 5
 @test 5 ∨ 10 == 10
+
+@test wedge(3) == vee(3)
