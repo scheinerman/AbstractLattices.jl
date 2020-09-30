@@ -1,6 +1,6 @@
 # AbstractLattices
 
-[![Build Status](https://travis-ci.org/scheinerman/AbstractLattices.jl.svg?branch=master)](https://travis-ci.org/scheinerman/AbstractLattices.jl)
+[![Build Status](https://travis-ci.com/scheinerman/AbstractLattices.jl.svg?branch=master)](https://travis-ci.com/scheinerman/AbstractLattices.jl)
 
 [![codecov.io](http://codecov.io/github/scheinerman/AbstractLattices.jl/coverage.svg?branch=master)](http://codecov.io/github/scheinerman/AbstractLattices.jl?branch=master)
 
