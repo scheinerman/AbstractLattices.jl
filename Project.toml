@@ -1,6 +1,6 @@
 name = "AbstractLattices"
 uuid = "398f06c4-4d28-53ec-89ca-5b2656b7603d"
-version = "0.2.1"
+version = "0.2.2"
 
 [compat]
 julia = "1"
