@@ -1,8 +1,5 @@
 # AbstractLattices
 
-[![Build Status](https://travis-ci.com/scheinerman/AbstractLattices.jl.svg?branch=master)](https://travis-ci.com/scheinerman/AbstractLattices.jl)
-
-[![codecov.io](http://codecov.io/github/scheinerman/AbstractLattices.jl/coverage.svg?branch=master)](http://codecov.io/github/scheinerman/AbstractLattices.jl?branch=master)
 
 This module defines `∨` (for join) and `∧` (for meet)
 as binary operators so other modules can import them for their own purposes.
@@ -14,7 +11,7 @@ We also define `dist` so distance can be defined in various modules.
 
 Two of my modules use the meet and join operators. Here's what happens
 when we don't first define them via this module:
-```julia
+```
 julia> using SimplePartitions
 
 julia> using ClosedIntervals
@@ -34,3 +31,10 @@ Stacktrace:
 
 To fix this, my modules that use these operators need to import them from
 `AbstractLattices`.
+
+## As Boolean operations
+
+The  `∨` and `∧` operations are explicitly defined for `Boolean` values. That is
+`true ∨ false` evaluates to `true`, and so forth.
+
+
