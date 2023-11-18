@@ -34,7 +34,7 @@ To fix this, my modules that use these operators need to import them from
 
 ## As Boolean operations
 
-The  `∨` and `∧` operations are explicitly defined for `Boolean` values. That is
+The  `∨` and `∧` operations are explicitly defined for `Bool` values. That is
 `true ∨ false` evaluates to `true`, and so forth.
 
 
