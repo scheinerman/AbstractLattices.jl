@@ -11,8 +11,8 @@ const ∨ = vee
 wedge(x) = x
 vee(x) = x
 
-wedge(p::Bool,q::Bool) = p && q
-vee(p::Bool,q::Bool) = p || q
+wedge(p::Bool, q::Bool) = p && q
+vee(p::Bool, q::Bool) = p || q
 
 function dist end
 
